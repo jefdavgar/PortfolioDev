@@ -1,0 +1,49 @@
+.imagen_estrellas {
+  /* position: absolute; */
+  position: fixed;
+  width: 100vw;
+  height: 800px;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.5)),
+    url("../../../../assets/night-stars-space-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.section_one {
+  display: flex;
+  flex-direction: column;
+}
+.text-tittle {
+  margin-left: 0vw;
+  margin-top: 20vh;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.imagen_loco {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.section_two{
+    background-color: var(--azuloscuro);
+}
+.content_about{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--azulclaro) !important;
+}
+.section_three{
+    margin-top: 25px;
+}
+
