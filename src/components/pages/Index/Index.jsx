@@ -12,8 +12,9 @@ import CardProject from "../../molecules/CardProject/CardProject";
 const Index = () => {
   return (
     <>
+      <a name="home"></a>
       <Menu></Menu>
-      <section className="container-fluid">
+      <section className="container">
         <div className="imagen_estrellas"></div>
         <div className="section_one">
           <div class="text-tittle">
@@ -32,6 +33,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <a name="about"></a>
       <Container className="section_two">
         <div className="container d-flex flex-column align-items-center content_about">
           <h1>About me</h1>
@@ -51,7 +53,7 @@ const Index = () => {
             <img
               src={giftwo}
               alt="your gif"
-              style={{ height: "95%", width: "100%", borderRadius: "30%" }}
+              style={{ width: "60%", borderRadius: "30%" }}
             />
           </div>
         </div>

@@ -53,13 +53,13 @@ const Menu = () => {
             <Nav.Link href="#home">
               <LinkOne text="Home" />
             </Nav.Link>
-            <Nav.Link href="#home">
-              <LinkOne text="About me" />
+            <Nav.Link href="#about">
+              <LinkOne text="About" />
             </Nav.Link>
-            <Nav.Link href="#home">
+            <Nav.Link href="#skill">
               <LinkOne text="Skills" />
             </Nav.Link>
-            <Nav.Link href="#home">
+            <Nav.Link href="#projets">
               <LinkOne text="Projects" />
             </Nav.Link>
           </Nav>
