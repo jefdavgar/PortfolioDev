@@ -40,7 +40,7 @@ const Menu = () => {
       <Container>
         <ButtonOne text="Contact" />
         <Navbar.Brand href="#home">
-          <img src={personal} alt="logo" />
+          <img src={personal} alt="logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           className={scroll ? "custom-button-scroll": "custom-button"}

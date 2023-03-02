@@ -1,21 +1,24 @@
-.container_img{
-    display: flex;
-    justify-content: center;
-    margin-top: 23px;
-    margin-bottom: 50px;
-    width: 100%;
+.container_img {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 .custom_img {
-    max-width: 500px;
-    width: 180px;
-    height: 180px;
-    height: auto;
-  }
-  
+  max-width: 500px;
+  width: 180px;
+  height: 180px;
+  height: auto;
+}
+.carousel-control-prev {
+  left: -30px;
+}
+.carousel-control-next {
+  right: -30px;
+}
 @media (max-width: 281px) {
-    .custom_img {
-      max-width: 100%;
-    }
+  .custom_img {
+    max-width: 100%;
   }
-
-  
+}

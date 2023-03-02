@@ -2,6 +2,12 @@
     border: none;
     color: transparent;
 }
+.link-one{
+    color: var(--blanco) !important;
+}
+.color-black{
+    color: white !important;
+}
 .custom-button-scroll{
     border: none;
     background-color: var(--azulclaro);
@@ -29,4 +35,16 @@
     transition-property: all;
     margin: 0% !important;
   }
+  @media (min-width: 992px) {
+    .menu{
+        background: transparent;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .color-black{
+        color: black !important;
+    }
+  }
+  
   

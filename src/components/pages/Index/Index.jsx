@@ -7,6 +7,8 @@ import giftwo from "../../../assets/second_image.gif";
 import { Container } from "react-bootstrap";
 import CarouselSkill from "../../molecules/CarouselSkill/CarouselSkill";
 import ButtonOne from "../../atom/ButtonOne/ButtonOne";
+import CardProject from "../../molecules/CardProject/CardProject";
+
 const Index = () => {
   return (
     <>
@@ -45,7 +47,7 @@ const Index = () => {
             lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in
             elementum tellus.
           </p>
-          <div className="imagen_loco">
+          <div className="imgtwo">
             <img
               src={giftwo}
               alt="your gif"
@@ -59,9 +61,9 @@ const Index = () => {
         </div>
         <div className="d-flex flex-column align-items-center section_four container">
           <h1>Projects</h1>
-          <div>
-
-          </div>
+          <>
+            <CardProject></CardProject>
+          </>
         </div>
       </Container>
     </>

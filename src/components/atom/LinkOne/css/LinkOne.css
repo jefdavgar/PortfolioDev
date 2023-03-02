@@ -10,3 +10,22 @@
 
   color: #ffffff;
 }
+.color-black{
+  text-decoration: none;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .color-black{
+    color: black !important;
+  }
+}
+
+
