@@ -6,6 +6,8 @@ import nft_img from "../../../assets/img_carts/nft.png"
 import diorma_img from "../../../assets/img_carts/diorma.png"
 import rick_img from "../../../assets/img_carts/rick.png"
 import calculator_img from "../../../assets/img_carts/calculator.png"
+import videoclub from "../../../assets/img_carts/videoclub.png"
+import SoundWave from "../../../assets/img_carts/SoundWave.png"
 import "./css/CardProject.css"
 const CardProject = () => {
   const [projects] = useState([
@@ -44,6 +46,20 @@ const CardProject = () => {
       linkG: "https://github.com/jefdavgar/project_diorma",
       LinkDep: "https://dancing-sunflower-c01e51.netlify.app/",
     },
+    {
+      id: 6,
+      img: videoclub,
+      nameProject: "Videolopers Club",
+      linkG: "https://github.com/jefdavgar/videoclub",
+      LinkDep: "https://videoclub-seven.vercel.app/",
+    },
+    {
+      id: 7,
+      img: SoundWave,
+      nameProject: "SoundWave",
+      linkG: "https://github.com/jefdavgar/SoundWave",
+      LinkDep: "https://jefdavgar.github.io/SoundWave/",
+    }
   ]);
   return (
     <div className="cards">

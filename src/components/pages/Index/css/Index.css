@@ -54,8 +54,20 @@ justify-content: center;
     background-color: var(--azulclaro) !important;
     max-width: 900px;
 }
+.content_contact{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--azulclaro) !important;
+  max-width: 900px;
+  border-radius: 20px;
+}
+
 .section_three{
     margin-top: 25px;
+}
+.section_contact{
+  margin-top: 20px;
+  border-radius: 20px;
 }
 .card-list{
   display: grid;

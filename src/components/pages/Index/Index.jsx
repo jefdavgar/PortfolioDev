@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 import CarouselSkill from "../../molecules/CarouselSkill/CarouselSkill";
 import ButtonOne from "../../atom/ButtonOne/ButtonOne";
 import CardProject from "../../molecules/CardProject/CardProject";
+import Contact from "../../organisms/Contact/Contact";
 
 const Index = () => {
   return (
@@ -67,7 +68,14 @@ const Index = () => {
             <CardProject></CardProject>
           </>
         </div>
+        <Container className="section_contact">
+        <div className="container d-flex flex-column align-items-center content_contact">
+          <h1>Contact</h1>
+          <Contact/>
+        </div>
       </Container>
+      </Container>
+
     </>
   );
 };
