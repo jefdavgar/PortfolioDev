@@ -13,18 +13,19 @@ import Contact from "../../organisms/Contact/Contact";
 const Index = () => {
   return (
     <>
-      <a name="home"></a>
+      <a name="inicio"></a>
       <Menu></Menu>
       <section className="container">
         <div className="imagen_estrellas"></div>
         <div className="section_one">
           <div class="text-tittle">
             <h1>Jeferson Camero</h1>
-            <h1>Full Stack Developer</h1>
-            <h4>Passionate about programming and new technologies</h4>
-            <ButtonOne text="Projects"></ButtonOne>
+            <h1>Desarrollador Full Stack</h1>
+            <h4>Apasionado por la programación y las nuevas tecnologías</h4>
+            <ButtonOne text="Proyectos" linkTo="#proyectos" />
           </div>
           <div className="imagen_loco">
+          <a name="sobre"></a>
             <img
               src={gif}
               alt="your gif"
@@ -34,22 +35,15 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <a name="about"></a>
       <Container className="section_two">
         <div className="container d-flex flex-column align-items-center content_about">
-          <h1>About me</h1>
+          <h1>Sobre mi</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-            tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-            feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus
-            enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex.
-            Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum
-            lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in
-            elementum tellus.
+          Como desarrollador freelance, me destaco por mi autonomía, proactividad y responsabilidad. Tengo experiencia gestionando proyectos y desarrollando soluciones para clientes, siempre con un enfoque en la historia de usuario, calidad y la entrega en tiempo y forma.
+          Me encanta el fútbol y la tecnología de desarrollo, y siempre busco mejorar mis habilidades en ambas áreas. Mi objetivo como desarrollador es utilizar mis habilidades técnicas y socioemocionales, para así construir soluciones innovadoras y creativas a los problemas.
+          Siento una gran pasión por la tecnología y capacidad para impactar positivamente en el mundo. Como desarrollador, estoy comprometido a contribuir significativamente a esta transformación.
           </p>
+          <a name="habilidades"></a>
           <div className="imgtwo">
             <img
               src={giftwo}
@@ -59,18 +53,20 @@ const Index = () => {
           </div>
         </div>
         <div className="d-flex flex-column align-items-center section_three">
-            <h1>Skills</h1>
+            <h1>Habilidades</h1>
             <CarouselSkill></CarouselSkill>
+            <a name="proyectos"></a>
         </div>
         <div className="d-flex flex-column align-items-center section_four container">
-          <h1>Projects</h1>
+          <h1>Proyectos</h1>
           <>
             <CardProject></CardProject>
           </>
+          <a name="contacto"></a>
         </div>
         <Container className="section_contact">
         <div className="container d-flex flex-column align-items-center content_contact">
-          <h1>Contact</h1>
+          <h1>Contacto</h1>
           <Contact/>
         </div>
       </Container>

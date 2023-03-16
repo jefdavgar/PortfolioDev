@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import personal from "../../../assets/personal.png";
-import ButtonOne from "../../atom/ButtonOne/ButtonOne";
+import ButtonDownload from "../../atom/ButtonDownload/ButtonDownload";
 import "./css/Menu.css";
 
 const Menu = () => {
@@ -38,7 +38,7 @@ const Menu = () => {
       fixed="top"
     >
       <Container>
-        <ButtonOne text="Contact" />
+      <ButtonDownload text="Descargar CV" link="https://drive.google.com/uc?export=download&id=1OvcO3Ffh_kKGhE82GscqTY_xuEUh_3ZF" />
         <Navbar.Brand href="#home">
           <img src={personal} alt="logo" className="logo" />
         </Navbar.Brand>
@@ -51,16 +51,16 @@ const Menu = () => {
           <Nav className="me-auto" />
           <Nav className="menu">
             <Nav.Link href="#home">
-              <LinkOne text="Home" />
+              <LinkOne text="Inicio" />
             </Nav.Link>
             <Nav.Link href="#about">
-              <LinkOne text="About" />
+              <LinkOne text="Sobre" />
             </Nav.Link>
             <Nav.Link href="#skill">
-              <LinkOne text="Skills" />
+              <LinkOne text="Habilidades" />
             </Nav.Link>
             <Nav.Link href="#projets">
-              <LinkOne text="Projects" />
+              <LinkOne text="Proyectos" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

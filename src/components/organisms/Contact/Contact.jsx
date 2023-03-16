@@ -27,7 +27,7 @@ function Contact() {
     const handleShow = () => setShow(true);
 
     //Email JS AUTH
-    emailjs.init("GHXV5k9D9NKrNCvIy");
+    emailjs.init("xfeZJsqoQoErNpUVJ");
 
     //form vars
     const [to, setTo] = useState('');
@@ -51,11 +51,11 @@ function Contact() {
      //email js
     function emailDatSend (to, email, message){
         handleClose() // close modal function
-        emailjs.send('service_ukee7jz', 'template_3lk8hej', { //service id - template id
+        emailjs.send('service_hfuptgo', 'template_5esp6tb', { //service id - template id
         to,
         email,
         message
-      }, 'GHXV5k9D9NKrNCvIy') //user id
+      }, 'xfeZJsqoQoErNpUVJ') //user id
         .then(() => {
           //sweet alert send popup {
           swal("Email enviado correctamente", "Dentro de poco estare en contacto contigo", "success")

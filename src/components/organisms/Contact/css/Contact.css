@@ -85,7 +85,7 @@ input, textarea{
     color: #FFF;
 }
 .swal-text{
-    color: var(--azulclaro);
+    color: #fff;
     text-align: center;
 }
 .swal-button{
